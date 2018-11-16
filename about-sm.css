@@ -1,0 +1,42 @@
+#about {
+    position: absolute;
+    flex-direction: column;
+    margin: 20px 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 80vw;
+
+}
+
+.about-image {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    margin: 20px 0;
+}
+
+.about-image img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 95%;
+    height: 90%;
+}
+
+.about-content {
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    width: 110%;
+}
+
+.about-skills {
+    padding: 0 0 0 9%;
+    width: 100%;
+}
+
+.about-skills h1{
+    text-align: center;
+}

@@ -1,0 +1,103 @@
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    box-sizing: border-box;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+nav {
+    width: 100vw;
+}
+
+ul {
+    list-style: none;
+    float: right;
+}
+
+ul li {
+    position: relative;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+ul li a:hover {
+    color: black;
+}
+
+.brand {
+    float: left;
+    font-size: 50px;
+    margin: -10px 100px;
+    font-weight: bolder;
+}
+
+.brand a {
+    color: white;
+    text-decoration: none;
+}
+
+#toggel-menu {
+    color: white;
+    display: none;
+}
+
+.nav-dark {
+    padding: 10px 0 0 0;
+    background: white;
+    box-shadow: 0 -5px 20px #000;
+}
+
+.nav-dark-link {
+    color: #000;
+}
+
+ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #000;
+    /* border-width: top right bottom left; */
+    border-width: 0 0 2px 2px;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+ul li a:hover::before {
+    bottom: -3px;
+    left: -10px;
+    opacity: 1;
+}
+
+ul li a::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 12px;
+    height: 12px;
+    border: 3px solid #000;
+    border-width: 2px 2px 0 0;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+ul li a:hover::after {
+    top: -3px;
+    right: -10px;
+    opacity: 1;
+}

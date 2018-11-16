@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="nav-bar-lg.css">
+    <link rel="stylesheet" href="about-lg.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="nav-bar-sm.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="about-sm.css">
+</head>
+
+<body>
+    <header>
+        <div class="brand"><a href="#">MNR</a></div>
+        <nav>
+            <ul>
+                <li><a href="#front">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <i id="toggel-menu" class="fa fa-bars"></i>
+    </header>
+    <div class="wrapper">
+        <div class="front" id="front">
+            <div class="content">
+                <div id="welcome">Welcome to my website</div>
+                <h1 class="type"></h1>
+                <button>Contact me</button>
+            </div>
+        </div>
+        <div class="text" id="about">
+            <div class="about-content">
+                <h1><b>Muhammad Nabeel</b></h3>
+                <h3>&lt; Full Stack Developer &gt;</h5>
+                <p>
+                    I am a Front-end Developer & Back-end Developer, working for the last two years. I have
+                    experience working with local clientsalong with clients from all around the world. I have
+                    vast knowledge in HTML, CSS, Javascript, JQuery, Python, Node.js and so on.
+                </p>
+                <button>Download CV <i class="fa fa-arrow-alt-circle-down"></i></button>
+            </div>
+            <div class="about-image"><img src="myself.jpg"></div>
+            <div class="about-skills">
+                <h1>My Skills</h1>
+                <div class="skill">
+                    <span>HTML / CSS</span>
+                    <span class="skill-percent">90%</span>
+                    <div class="progress-bar"><div id="html-css"></div></div>
+                </div>
+                <div class="skill">
+                    Javascript
+                    <span class="skill-percent">84%</span>
+                    <div class="progress-bar"><div id="javascript"></div></div>
+                </div>
+                <div class="skill">
+                    JQuery
+                    <span class="skill-percent">68%</span>
+                    <div class="progress-bar"><div id="jquery"></div></div>
+                </div>
+                <div class="skill">
+                    Python
+                    <span class="skill-percent">70%</span>
+                    <div class="progress-bar"><div id="python"></div></div>
+                </div>
+                <div class="skill">
+                    Node.js
+                    <span class="skill-percent">50%</span>
+                    <div class="progress-bar"><div id="nodejs"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="node_modules\particles.js\particles.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
