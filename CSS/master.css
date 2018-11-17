@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:300|Montserrat:300|Nanum+Gothic|Poppins:200|Titillium+Web:300');
+body {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Titillium Web', sans-serif; */
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    /* font-family: 'Dosis', sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.text {
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.type {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.719);
+}
+
+.front {
+    background: url(../background.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.front .content {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.front .content #welcome {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.front .content button {
+    border: solid rgb(0, 0, 0) thin;
+    padding: 10px 30px;
+    background: none;
+    border-radius: 40px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    font-weight: bold;
+}
+
+.front .content button:hover {
+    box-shadow: 0 0 50px #000;
+}
+
+footer {
+    height: 150px;
+    width: 100vw;
+    background: #262626;
+    color: #fff;
+    text-align: center;
+}
+
+footer div {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer div a {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
