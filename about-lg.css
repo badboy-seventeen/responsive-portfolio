@@ -1,25 +1,21 @@
 #about {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 100vh;
+    grid-column-gap: 40px;
     width: 100vw;
     height: 100vh;
-    margin: 100px 6%;
-    align-content: center;
-}
-
-.about-image {
-    margin: 0 70px;
-    height: 100vh;
+    margin: 10% 0;
 }
 
 .about-image img {
     border-radius: 10px;
+    width: 95%;
     height: 80%;
 }
 
 .about-content {
     text-align: right;
-    padding: 20px;
-    width: 25%;
 }
 
 .about-content button {
@@ -44,9 +40,7 @@
 
 .about-skills {
     text-align: left;
-    padding: 5px;
-    width: 25%;
-    clear: both;
+    width: 27vw;
 }
 
 .progress-bar {

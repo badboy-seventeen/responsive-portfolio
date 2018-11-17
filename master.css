@@ -12,11 +12,6 @@ body {
     overflow-x: hidden;
 }
 
-#blog {
-    color: #000;
-    padding: 50px;
-    font-weight: bold;
-}
 
 .text {
     line-height: 30px;
